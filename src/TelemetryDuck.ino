@@ -126,7 +126,7 @@ bool runSensor(void *) {
   schedSensor();
 
   Serial.println("SENSOR: " + sensorVal);
-  duck.sendPayloadMessage(sensorVal);
+  duck.sendPayloadStandard(sensorVal, "", "", "", "");
   
   return true;
 }
