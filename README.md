@@ -1,13 +1,16 @@
 
 # QuackStart
 
-how to get up and running with some clusterducks with least effort
+how to get up and running with some [clusterducks](https://github.com/Code-and-Response/ClusterDuck-Protocol) with least effort.
 
 
 
 ## PREREQs
 
-* assumes you have some kind of nixoid buildhost.
+* any "esp32 with a lora chip" boards should do. 
+* * check [platformio.ini](platformio.ini) for existing board definitions.
+
+* assumes you have some kind of nixoid buildhost you know how to use.
 * used examples are fedora and raspi.
 * anything linux or mac should work, including linux-on-a-windows vms.
 
